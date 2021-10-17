@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="blueWall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="exit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gameOver.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ghost.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="greenWall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="healthyBlueCookie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="healthyGreenCookie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="healthyRedCookie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="loadingLevelScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lostScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="openScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pacman.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="poisonedBlueCookie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="poisonedGreenCookie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="poisonedRedCookie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="redWall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="standardBlueCookie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="standardGreenCookie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="standardRedCookie.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="startpage2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="winScreen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cookies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthCookie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PacMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisonCookie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGhost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartGhost.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cookies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthCookie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PacMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisonCookie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGhost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartGhost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Board.txt" />
+    <Text Include="levels.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README_Project.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Toledo__.ttf" />
+  </ItemGroup>
+</Project>
